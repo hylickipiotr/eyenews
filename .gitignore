@@ -10,6 +10,7 @@
 
 # production
 /build
+tsconfig.tsbuildinfo
 
 # misc
 .DS_Store
@@ -21,3 +22,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.eslintcache
+
+#db_snapshots
+src/db/*.json
