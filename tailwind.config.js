@@ -5,11 +5,6 @@ const aspectRatio = require("tailwindcss-aspect-ratio");
 module.exports = {
   purge: {
     content: ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx", "public/**/*.html"],
-    options: {
-      safelist: {
-        standard: [/^(((hover):bg-\w*)|bg-\w*)-(400|600|700)/],
-      },
-    },
   },
   presets: [],
   darkMode: false, // or 'media' or 'class'
