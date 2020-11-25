@@ -1,3 +1,10 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "tailwindCSS.colorDecorators": "on",
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "typescript": "typescript",
+    "javascript": "javascript",
+    "html": "HTML"
+  }
 }
