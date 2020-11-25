@@ -32078,6 +32078,26 @@ video {
   animation: bounce 1s infinite;
 }
 
+.aspect-ratio-none {
+  padding-bottom: 0;
+}
+
+.aspect-ratio-square {
+  padding-bottom: 100%;
+}
+
+.aspect-ratio-16\/9 {
+  padding-bottom: 56.25%;
+}
+
+.aspect-ratio-4\/3 {
+  padding-bottom: 75%;
+}
+
+.aspect-ratio-21\/9 {
+  padding-bottom: 42.857142857142854%;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -63562,6 +63582,26 @@ video {
 
   .sm\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .sm\:aspect-ratio-none {
+    padding-bottom: 0;
+  }
+
+  .sm\:aspect-ratio-square {
+    padding-bottom: 100%;
+  }
+
+  .sm\:aspect-ratio-16\/9 {
+    padding-bottom: 56.25%;
+  }
+
+  .sm\:aspect-ratio-4\/3 {
+    padding-bottom: 75%;
+  }
+
+  .sm\:aspect-ratio-21\/9 {
+    padding-bottom: 42.857142857142854%;
   }
 }
 
@@ -95050,6 +95090,26 @@ video {
   .md\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .md\:aspect-ratio-none {
+    padding-bottom: 0;
+  }
+
+  .md\:aspect-ratio-square {
+    padding-bottom: 100%;
+  }
+
+  .md\:aspect-ratio-16\/9 {
+    padding-bottom: 56.25%;
+  }
+
+  .md\:aspect-ratio-4\/3 {
+    padding-bottom: 75%;
+  }
+
+  .md\:aspect-ratio-21\/9 {
+    padding-bottom: 42.857142857142854%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -126536,6 +126596,26 @@ video {
 
   .lg\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .lg\:aspect-ratio-none {
+    padding-bottom: 0;
+  }
+
+  .lg\:aspect-ratio-square {
+    padding-bottom: 100%;
+  }
+
+  .lg\:aspect-ratio-16\/9 {
+    padding-bottom: 56.25%;
+  }
+
+  .lg\:aspect-ratio-4\/3 {
+    padding-bottom: 75%;
+  }
+
+  .lg\:aspect-ratio-21\/9 {
+    padding-bottom: 42.857142857142854%;
   }
 }
 
@@ -158024,6 +158104,26 @@ video {
   .xl\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .xl\:aspect-ratio-none {
+    padding-bottom: 0;
+  }
+
+  .xl\:aspect-ratio-square {
+    padding-bottom: 100%;
+  }
+
+  .xl\:aspect-ratio-16\/9 {
+    padding-bottom: 56.25%;
+  }
+
+  .xl\:aspect-ratio-4\/3 {
+    padding-bottom: 75%;
+  }
+
+  .xl\:aspect-ratio-21\/9 {
+    padding-bottom: 42.857142857142854%;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -189510,5 +189610,25 @@ video {
 
   .\32xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .\32xl\:aspect-ratio-none {
+    padding-bottom: 0;
+  }
+
+  .\32xl\:aspect-ratio-square {
+    padding-bottom: 100%;
+  }
+
+  .\32xl\:aspect-ratio-16\/9 {
+    padding-bottom: 56.25%;
+  }
+
+  .\32xl\:aspect-ratio-4\/3 {
+    padding-bottom: 75%;
+  }
+
+  .\32xl\:aspect-ratio-21\/9 {
+    padding-bottom: 42.857142857142854%;
   }
 }

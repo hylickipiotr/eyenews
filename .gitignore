@@ -27,3 +27,6 @@ yarn-error.log*
 
 #db_snapshots
 src/db/*.json
+
+#styles
+src/styles/tailwind.output.css
